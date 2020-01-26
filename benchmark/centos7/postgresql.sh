@@ -101,7 +101,7 @@ setup_postgresql_repository()
 setup_groonga_repository()
 {
   run sudo rpm -Uvh \
-      http://packages.groonga.org/centos/groonga-release-1.1.0-1.noarch.rpm
+      https://packages.groonga.org/centos/groonga-release-latest.noarch.rpm
 }
 
 install_pgroonga()
